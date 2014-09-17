@@ -1,28 +1,20 @@
-== README
+== Space r&zg README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README will document cloning of this repository.
 
-Things you may want to cover:
+Getting started with cloning:
 
-* Ruby version
+* open your terminal
 
-* System dependencies
+* In your terminal, type "git clone https://github.com/andrewrdakers/Super.git"
 
-* Configuration
+* Then type, "bundle" to install all the required gems.
 
-* Database creation
+* Then type, "rake db:create" to create the database locally.
 
-* Database initialization
+* Then type, "rake db:migrate" to populate the database with the correct tables and columns.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Then type, "rails s" to start your server.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+MIT 2014 Andrew Akers
